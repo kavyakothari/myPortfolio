@@ -1,0 +1,12 @@
+.nav-link {
+    font-weight: bold;
+    color: black;
+    text-decoration: none; /* Add missing property */
+    padding: 10px; /* Add missing property */
+}
+.card-title{
+    font-weight: bold;
+    color: green;
+    text-decoration: none; /* Add missing property */
+    padding: 10px; /* Add missing property */
+}

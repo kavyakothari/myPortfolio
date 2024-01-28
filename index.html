@@ -1,0 +1,261 @@
+<!doctype html>
+<html lang="en">
+<!--head-->
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Kavyalata Kothari</title>
+    <!--css bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <!--css fontawesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!--css stylesheet-->
+    <link rel="stylesheet" href="./css/style.css">
+    <!--js bootstrap-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</head>
+<!--end: head-->
+<!--body-->
+<body>
+    <div class="container-fluid bg-dark text-white text-center pt-5 pb-5">
+        <h1>Welcome To My Portfolio</h1>
+    <!--<img src="./img/Kavya-working.jpeg" width="100%" height="50%"  alt="Responsive image"> -->
+    <!--navbar-->
+    <ul class="nav nav-tabs bg-light text-white">
+        <!-- About Me-->
+        <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#aboutme"><i class="fas fa-user"></i> About Me</a>
+        </li>
+        <!-- Skills dropdown-->
+        <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Skills</a>
+            <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#webdev">Web Development</a></li>
+                <li><a class="dropdown-item" href="#programming">Programming</a></li>
+                <li><a class="dropdown-item" href="#dataeng">Data Engineering</a></li>
+                <li><a class="dropdown-item" href="#ml">Machine Learning</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#">Soft Skills</a></li>
+            </ul>
+        </li>
+        <!-- Experience-->
+        <li class="nav-item">
+            <a class="nav-link" href="#experience">Experience</a>
+        </li>
+        <!-- Projects-->
+        <li class="nav-item">
+            <a class="nav-link " aria-disabled="true">Projects</a>
+        </li>
+    </ul>
+    <!-- END: navbar-->
+
+    <!-- About ME-->
+    <div class="container-fluid" id="aboutme">
+        <div class="row">
+            <div class="col-lg-4 col-md-6 col-sm-12 pt-5 pb-5">
+                <h2>About Me</h2>
+                <img src="./img/Kavya-working.jpeg" class="img-rounded w-50 oval-image" alt="Responsive image" style="border-radius: 50%;">
+            </div>
+            <div class="col-lg-8 col-md-6 col-sm-12 pt-5 pb-5">
+                <div class="container-fluid lead">
+                    <p>I am a Web developer enthusiast. I am currently pursuing my Masters in Computer Science from California State University Northridge. I am part-time working as a Web Producer for the University.
+                    I have worked over 300 web pages for the University website, leveraging HTML, CSS, JavaScript, and Drupal 9 to ensure a visually appealing and user-friendly experience.
+                    I am currently brushing up my skills in BootStrap, JavaScript, and PHP.
+                    My hobbies are reading books, listening to music, and watching movies.</p>
+                </div>
+                <div class="container-fluid p-5">
+                    <a href="https://www.linkedin.com/in/kavyalata-kothari-b9018a102/" class="btn btn-primary btn-lg active" role="button" aria-pressed="true" target="none"><i class="fab fa-linkedin"></i> LinkedIn</a>
+                    <a href="mailto:kavyakothari97@gmail.com" class="btn btn-primary btn-lg active" role="button" aria-pressed="true"><i class="fas fa-envelope"></i> Email</a>
+                    <a href="https://github.com/kavyakothari/" class="btn btn-primary btn-lg active" role="button" aria-pressed="true" target="none"><i class="fab fa-github"></i> GitHub</a>
+                </div>
+                <div class="container-fluid p-5" id="resume">
+                <a href="resume\Kavyalata-Kothari-Resume.pdf" target="_blank">Download My Full Resume</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- END: About ME -->
+    
+    <!-- Skills-->
+      <div class="container-fluid" id="skills">
+        <div class="row">
+            <div class="col-lg-4 col-md-6 col-sm-12 pt-5 pb-5 lead">
+            <h2>Skills</h2>
+            <img src="./img/skills.png" class="img-rounded w-50 oval-image" alt="Responsive image" style="border-radius: 50%;">
+        </div>
+            <div class="col-lg-8 col-md-12 col-sm-12 p-5">
+                <!--Accordion-->
+                <div class="accordion">
+                    <div class="accordion-item" id="webdev">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                Web Development
+                            </button>
+                        </h2>
+                        <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <strong>HTML, CSS, JavaScript, BootStrap, PHP</strong>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item" id="programming">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                Programming
+                            </button>
+                        </h2>
+                        <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <strong>C, C++, Python, Shell Scripting </strong>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item" id="dataeng">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                Data Engineering
+                            </button>
+                        </h2>
+                        <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <strong>AWS, Azure, ETL tools, GCP, Spark, Oracle, MySQL, NoSQL, Tableau</strong>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item" id="ml">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                Machine Learning
+                            </button>
+                        </h2>
+                        <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <strong>Jupyter Notebook, Colab, Predictive Models, Regression Models, Sentiment Analysis, Image Processing, NLP</strong>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                  <!--END: Accordion-->
+            </div>
+        </div>
+    </div>
+    <!-- END: Skills -->
+
+     <!-- Experience-->
+     
+    <div class="container-fluid" id="experience">
+        <div class="row">
+            <div class="col-lg-4 col-md-12 col-sm-12 p-10">
+                <h2>Experience</h2>
+            </div>
+        </div>  
+    </div>
+
+    <div class="container-fluid" >
+        <div class="row">
+            <div class="col-lg-4 col-md-12 col-sm-12 pb-5">
+                <div class="container-fluid">
+                    <img src="./img/CSUN-logo.png" class="img-rounded w-20 " alt="Responsive image">
+                </div>
+            </div>
+            <div class="col-lg-8 col-md-12 col-sm-12 pb-5 text-center">
+                <div class="container-fluid">
+                <p><strong>Web-Producer, Graduate Student Assistant, California State University – Northridge</strong>
+                <p>Developed over 300 web pages for the University website, leveraging HTML, CSS, JavaScript, and Drupal 9 to ensure a visually appealing and user-friendly experience.
+                    Collaborated with cross-functional teams to optimize web page load times by implementing caching techniques and reducing file sizes, resulting in a remarkable 30% enhancement in website performance
+                    Contributed to the development and deployment of new website features, driving a significant 20% increase in user engagement metrics, and enhancing the overall user experience.</p>
+                </div>
+            </div>
+        <div>
+        </div>
+
+        <div class="row">
+            <div class="col-lg-4 col-md-12 col-sm-12 pb-5">
+                <div class="container-fluid">
+                    <img src="./img/TIAA-logo.jpeg" class="img-rounded w-20 " alt="Responsive image">
+                </div>
+            </div>
+            <div class="col-lg-8 col-md-12 col-sm-12 pb-5">
+                <div class="container-fluid">
+                <p><strong>Sr. Software Engineer, TIAA CREF, Mumbai, India</strong>
+                <p>I am a Web developer enthusiast. I am currently pursuing my Masters in Computer Science from California State University Northridge. I am part-time working as a Web Producer for the University.
+                I have worked over 300 web pages for the University website, leveraging HTML, CSS, JavaScript, and Drupal 9 to ensure a visually appealing and user-friendly experience.
+                I am currently brushing up my skills in BootStrap, JavaScript, and PHP.
+                My hobbies are reading books, listening to music, and watching movies.</p>
+                </div>
+            </div>
+        <div>
+        </div>
+
+        <div class="row">
+            <div class="col-lg-4 col-md-12 col-sm-12 pb-5">
+                <div class="container-fluid">
+                    <img src="./img/capgemini-logo.png" class="img-rounded w-20 " alt="Responsive image">
+                </div>
+            </div>
+            <div class="col-lg-8 col-md-12 col-sm-12 pb-5">
+                <div class="container-fluid">
+                <p><strong>Software Engineer/ Sr. Consultant, Capgemini Technology Services, Bengaluru, India</strong>
+                <p>Developed highly efficient and scalable ETL pipelines, utilizing an array of stages such as Transformer, Joins, and Hierarchical stage which significantly enhanced data processing efficiency and facilitated seamless integration.                        Orchestrated the integration of diverse data sources, encompassing CSV files and tables from heterogeneous databases, including Oracle, Postgres, and MySQL. Employed advanced SQL procedures and dynamic bash scripts to perform data preprocessing, harmonizing data formats, and optimizing data structures for unified data pipelines.                        Demonstrated exceptional project management skills during a critical customs transformation initiative for automobile parts import/export amidst the demanding Brexit period.
+                    Big Data pipeline using Amazon Redshift to extract business insights from the stored data.
+                    Utilized CloudWatch for real-time monitoring and alerting of application performance in the AWS cloud environment.</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    </div>
+    <!-- END: Experience -->        
+    </div>
+
+    <!-- Projects-->
+    <div class="container-fluid px-4" id="projects">
+        <div class="row gx-5">
+            <div class="col-lg-12 col-md-12 col-sm-12 p-3">
+                <h2>Projects</h2>
+            </div>
+        
+        <div class="card col-lg-3 col-md-6 col-sm-12 p-5" >
+            <img src="https://raw.githubusercontent.com/kavyakothari/growponics.github.io/7d27dd6122a8df334a591fef7a6c738bb981f88a/src/assets/crown.svg" class="card-img-top" alt="growponics logo">
+            <div class="card-body">
+              <h5 class="card-title">Growponics</h5>
+              <p class="card-text">Full Stack E-Commerce App built with React, using Firebase and Stripe API, deployed with Visual Studio To view the app.
+                For now, new registered user data is saving in Firebase but the sign in button is not re-directing to the products page. Work is in progress for the same.</p>
+              <a href="https://growponics-github-io.vercel.app/" class="btn btn-primary">View Full Project</a>
+            </div>
+          </div>
+
+          <div class="card col-lg-3 col-md-6 col-sm-12 p-5" >
+            <img src="data:image/jpeg;base64,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" class="card-img-top" alt="growponics logo">
+            <div class="card-body">
+              <h5 class="card-title">Predicting-Mortality-on-Non Alcoholic Fatty Liver Diseases</h5>
+              <p class="card-text">By examining data sets from population research, this longitudinal study seeks to predict outcomes in people with non-alcoholic fatty liver disease (NAFLD). NAFLD patients and matched controls in the research were monitored for metabolic abnormalities, cardiac endpoints, and mortality. Using this substantial dataset, the project intends to create predictive models for metabolic abnormalities, cardiac events, and mortality in NAFLD.
+                 The results of this study will aid in improving the understanding of the long-term effects of NAFLD and in the creation of focused therapies to enhance patient outcomes.</p>
+              <a href="https://github.com/kavyakothari/Predicting-Mortality-on-NAFLD" class="btn btn-primary">View Full Project</a>
+            </div>
+          </div>
+
+          <div class="card col-lg-3 col-md-6 col-sm-12 p-5" >
+            <img src="https://raw.githubusercontent.com/kavyakothari/growponics.github.io/7d27dd6122a8df334a591fef7a6c738bb981f88a/src/assets/crown.svg" class="card-img-top" alt="growponics logo">
+            <div class="card-body">
+              <h5 class="card-title">Growponics</h5>
+              <p class="card-text">Full Stack E-Commerce App built with React, using Firebase and Stripe API, deployed with Visual Studio To view the app.
+                For now, new registered user data is saving in Firebase but the sign in button is not re-directing to the products page. Work is in progress for the same.</p>
+              <a href="https://growponics-github-io.vercel.app/" class="btn btn-primary">View Full Project</a>
+            </div>
+          </div>
+          <div class="card col-lg-3 col-md-6 col-sm-12 p-5" >
+            <img src="https://raw.githubusercontent.com/kavyakothari/growponics.github.io/7d27dd6122a8df334a591fef7a6c738bb981f88a/src/assets/crown.svg" class="card-img-top" alt="growponics logo">
+            <div class="card-body">
+              <h5 class="card-title">Growponics</h5>
+              <p class="card-text">Full Stack E-Commerce App built with React, using Firebase and Stripe API, deployed with Visual Studio To view the app.
+                For now, new registered user data is saving in Firebase but the sign in button is not re-directing to the products page. Work is in progress for the same.</p>
+              <a href="https://growponics-github-io.vercel.app/" class="btn btn-primary">View Full Project</a>
+            </div>
+          </div>
+        </div>  
+</div>
+</body>
+</html>
+                    
