@@ -1,12 +1,4 @@
 # myPortfolio
-My Web Portfolio using HTML CSS Bootstrap and Javascript
-touch README.md
-# FILEPATH: /c:/Users/91979/Desktop/Full-Stack-project/README.md
-# BEGIN: ed8c6549bwf9
-touch README.md
-# Add content to the README.md file
-# END: ed8c6549bwf9
-# myPortfolio
 
 ## Introduction
 This project is a web portfolio showcasing my skills in HTML, CSS, Bootstrap, and JavaScript.
