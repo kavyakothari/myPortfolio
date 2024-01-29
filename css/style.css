@@ -10,3 +10,8 @@
     text-decoration: none; /* Add missing property */
     padding: 10px; /* Add missing property */
 }
+.marquee{
+    color: red;
+    font-weight: bold;
+    font-style: italic;
+}
